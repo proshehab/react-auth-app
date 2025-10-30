@@ -2,7 +2,10 @@
 
 const Profile = () => {
   return (
-    <div>Profile</div>
+    <div>Profile
+
+        <h2>User Information</h2>
+    </div>
   )
 }
 
