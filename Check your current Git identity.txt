@@ -1,0 +1,20 @@
+🧠 1. Check your current Git identity
+
+Run this inside your project folder:
+
+
+git config user.name
+git config user.email
+
+backupfiles4466
+backupfiles4466@example.com
+
+git config user.name "proshehsb"
+git config user.email "YOUR_GITHUB_EMAIL"
+
+
+git config --global user.name "proshehsb"
+git config --global user.email "YOUR_GITHUB_EMAIL"
+
+
+
