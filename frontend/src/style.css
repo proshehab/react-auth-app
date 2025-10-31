@@ -1,1 +1,17 @@
 @import "tailwindcss";
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400&display=swap");
+@import "tailwindcss";
+
+
+body{
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+
+.bg-light{
+    background-color: #f9f9f9;
+}
+
+.dark .bg-dark{
+    background-color: #1a202c;
+}

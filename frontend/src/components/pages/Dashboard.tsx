@@ -1,6 +1,6 @@
 import { useNavigate } from "react-router-dom";
 import { useState } from "react";
-import { LogOut, LayoutDashboard, User, Settings } from "lucide-react";
+import { LogOut, LayoutDashboard, User, Settings, Link } from "lucide-react";
 
 export default function Dashboard() {
   const navigate = useNavigate();
@@ -47,6 +47,9 @@ export default function Dashboard() {
           <button className="flex items-center space-x-3 w-full py-2 px-3 rounded-md hover:bg-blue-600">
             <User size={20} />
             {sidebarOpen && <span>Profile</span>}
+            <Link to="/profile">
+              <span >Profile</span>
+            </Link>
           </button>
 
           <button className="flex items-center space-x-3 w-full py-2 px-3 rounded-md hover:bg-blue-600">

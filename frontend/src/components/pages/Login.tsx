@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import axios from "axios";
 
 interface ValidationErrors {
@@ -101,14 +101,14 @@ export default function Login() {
           Login
         </button>
 
-        {/* Register Link */}
+      {/* Register Link */}
         <p className="text-center text-gray-600 text-sm mt-4">
-          Don’t have an account?{" "}
-          <a href="/register" className="text-blue-600 hover:underline">
+          Don't have an account?{" "}
+          <Link to="/register" className="text-blue-600 hover:underline">
             Register
-          </a>
-        </p>
+          </Link>
+          </p>
       </form>
-    </div>
+    </div>  
   );
 }
